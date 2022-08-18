@@ -1,3 +1,3 @@
 def xo(s):
-    return s.count('o') == s.count('x')
+    return s.lower().count('o') == s.lower().count('x')
     
